@@ -20,11 +20,20 @@ Include a reflection answering the following questions:
 
 * What was your biggest technical challenge?
 
+My biggest technical challenge was testing. I could not get the frontend tests to recognize jQuery. I had a lot of trouble testing the backend due to not knowing that a separate command was needed to run the migrations for the test environment. Additonally, PryJS was not working on the backend, so I found testing to be minimally helpful since I couldn't debug the issues with Pry.
+
 * How did you solve that challenge? What was your approach?
+
+On the frontend there was no solution as no one I asked seemed to know how to solve it. On the backed I ended up just debugging using the Postgres CLI instead of testing and using Pry. 
 
 * What did you like the most about the challenge?
 
+I liked working with the PG CLI, I think it is was good to remember that it is an option.
+
 * What are three technical concepts you learned during this project?
+- OOP in JS
+- Knex
+- Express
 
 * If you could change one thing about your technical approach, what would it be and why?
 
